@@ -1,0 +1,50 @@
+.white{
+    background-color: white;
+    display: inline-block;
+    margin-left:-9px;
+    height: 160px;
+    width:60px;
+    border: 3px solid gray;
+    line-height:250px;
+    text-align:center;
+    font-size:x-large;
+}
+.white-keys{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+/*right(3) black keys */
+.black{
+    background-color: black;
+    display: inline-block;
+    height:105px;
+    width:40px;
+    color: white;
+    text-align: center;
+    font-size:large;
+    margin-left: 17px;
+    position: relative;
+    top: 195px;
+    left: 497px;
+}
+/*left black keys */
+.left{
+    background-color: black;
+    display: inline-block;
+    height:105px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    font-size:large;
+    position: relative;
+    top: 195px;
+    left: 443px;
+    margin-left: 28px;
+}
+span{
+    line-height: 130px;
+}
+body{
+    background-color: brown;
+}
